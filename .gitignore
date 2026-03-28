@@ -1,0 +1,59 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+*.env
+finance_agent/.env
+*.pem
+*.key
+*.p12
+*.crt
+*service-account*.json
+
+# ADK local state
+.adk/
+finance_agent/.adk/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pyre/
+.pytype/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and runtime files
+*.log
+logs/
+
+# Local databases and temp files
+*.db
+*.sqlite
+*.sqlite3
+tmp/
+temp/
